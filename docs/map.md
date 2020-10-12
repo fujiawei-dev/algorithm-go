@@ -1,9 +1,23 @@
-# 哈希/映射/字典
+---
+date: 2020-10-12T17:08:42+08:00  # 创建日期
+author: "Rustle Karl"  # 作者
 
-- [哈希/映射/字典](#哈希映射字典)
-	- [从给定的车票中找出旅程路线](#从给定的车票中找出旅程路线)
-		- [构建 Map 和逆 Map](#构建-map-和逆-map)
-	- [从数组中找出满足 `a+b=c+d` 的两个数对](#从数组中找出满足-abcd-的两个数对)
+# 文章
+title: "数据结构与算法之哈希/映射/字典"  # 文章标题
+# description: "文章描述"
+url:  "posts/algorithm/go/docs/map"  # 设置网页永久链接
+tags: [ "algorithm", "go" ]  # 标签
+series: [ "Go 数据结构与算法"]  # 系列
+categories: [ "数据结构与算法"]  # 分类
+
+# 章节
+weight: 20 # 排序优先级
+chapter: false  # 设置为章节
+
+index: true  # 是否可以被索引
+toc: true  # 是否自动生成目录
+draft: false  # 草稿
+---
 
 ## 从给定的车票中找出旅程路线
 

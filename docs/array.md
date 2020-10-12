@@ -1,4 +1,25 @@
-# 数组
+---
+date: 2020-10-12T17:08:42+08:00  # 创建日期
+author: "Rustle Karl"  # 作者
+
+# 文章
+title: "数据结构与算法之数组"  # 文章标题
+# description: "文章描述"
+url:  "posts/algorithm/go/docs/array"  # 设置网页永久链接
+tags: [ "algorithm", "go" ]  # 标签
+series: [ "Go 数据结构与算法"]  # 系列
+categories: [ "数据结构与算法"]  # 分类
+
+# 章节
+weight: 20 # 排序优先级
+chapter: false  # 设置为章节
+
+index: true  # 是否可以被索引
+toc: false  # 是否自动生成目录
+draft: false  # 草稿
+---
+
+## 数组
 
 数组是某种类型的数据按照一定的顺序组成的数据的集合。如果将有限个类型相同的变量的集合命名，那么这个名称为数组名。组成数组的各个变量称为数组的分量，也称为数组的元素，有时也称为下标变量。用于区分数组的各个元素的数字编号称为下标。
 

@@ -1,12 +1,23 @@
-# 队列
+---
+date: 2020-10-12T17:08:42+08:00  # 创建日期
+author: "Rustle Karl"  # 作者
 
-- [队列](#队列)
-  - [用 Go 语言实现队列](#用-go-语言实现队列)
-    - [数组实现的队列](#数组实现的队列)
-    - [链表实现的队列](#链表实现的队列)
-    - [利用 Go 切片的简单实现](#利用-go-切片的简单实现)
-  - [设计一个排序系统](#设计一个排序系统)
-  - [实现 LRU 缓存方案](#实现-lru-缓存方案)
+# 文章
+title: "数据结构与算法之队列"  # 文章标题
+# description: "文章描述"
+url:  "posts/algorithm/go/docs/queue"  # 设置网页永久链接
+tags: [ "algorithm", "go" ]  # 标签
+series: [ "Go 数据结构与算法"]  # 系列
+categories: [ "数据结构与算法"]  # 分类
+
+# 章节
+weight: 20 # 排序优先级
+chapter: false  # 设置为章节
+
+index: true  # 是否可以被索引
+toc: true  # 是否自动生成目录
+draft: false  # 草稿
+---
 
 ## 用 Go 语言实现队列
 
