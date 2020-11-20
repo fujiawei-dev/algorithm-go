@@ -1,3 +1,26 @@
+---
+date: 2020-11-20T11:03:48+08:00  # 创建日期
+author: "Rustle Karl"  # 作者
+
+# 文章
+title: "快速排序 Quick Sort"  # 文章标题
+url:  "posts/algorithm/go/docs/sort/quicksort"  # 设置网页永久链接
+tags: [ "algorithm", "go" ]  # 标签
+series: [ "Go 数据结构与算法"]  # 系列
+categories: [ "数据结构与算法"]  # 分类
+
+# 章节
+weight: 20 # 排序优先级
+chapter: false  # 设置为章节
+
+index: true  # 是否可以被索引
+toc: true  # 是否自动生成目录
+draft: false  # 草稿
+---
+
+## 算法实现
+
+```go
 package main
 
 import "fmt"
@@ -35,8 +58,11 @@ func QuickSort(array []int, low, high int) {
 	QuickSort(array, low, pos-1)
 	QuickSort(array, pos+1, high)
 }
+```
 
-// QuickSelectMedian 基于快速选择的中位数查找
+## 基于快速选择的中位数查找
+
+```go
 func QuickSelectMedian(seq []float64, low int, high int, k int) float64 {
 	if low == high {
 		return seq[k]
@@ -64,3 +90,17 @@ func QuickSelectMedian(seq []float64, low int, high int, k int) float64 {
 	}
 	return seq[k]
 }
+```
+
+```go
+
+```
+
+```go
+
+```
+
+```go
+
+```
+
